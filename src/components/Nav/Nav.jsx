@@ -33,11 +33,11 @@ const Nav = ({ theme, setTheme }) => {
                     </defs>
                 </svg>
                 <ul>
-                    <li><Link to='/deploy_react_app_github_pages_vercel'>Home</Link></li>
-                    <li><Link to='/deploy_react_app_github_pages_vercel'>News</Link></li>
-                    <li><Link to='/deploy_react_app_github_pages_vercel'>Promotion of the mount</Link> </li>
-                    <li><Link to='/deploy_react_app_github_pages_vercel'>Plublishs</Link></li>
-                    <li><Link to='/deploy_react_app_github_pages_vercel'>Subscribe to the newsletter</Link></li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/'>News</Link></li>
+                    <li><Link to='/'>Promotion of the mount</Link> </li>
+                    <li><Link to='/'>Plublishs</Link></li>
+                    <li><Link to='/'>Subscribe to the newsletter</Link></li>
                 </ul>
                 <svg className="line" xmlns="http://www.w3.org/2000/svg" width="254" height="1" viewBox="0 0 254 1" fill="none">
                     <line y1="0.5" x2="256" y2="0.5" stroke="#937DC2" />

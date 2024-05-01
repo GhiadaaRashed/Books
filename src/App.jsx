@@ -17,7 +17,7 @@ function App() {
       <div className='App' id={theme}>
         <Nav theme={theme} setTheme={setTheme} />
           <Routes>
-            <Route path='/deploy_react_app_github_pages_vercel' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path="/details/:id" element={<Book theme={theme}/>} />
           </Routes>
         <Footer />
