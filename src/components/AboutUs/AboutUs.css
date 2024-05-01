@@ -1,0 +1,60 @@
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 130px;
+    padding: 70px 20px;
+}
+.about .aboutData h1{
+    font-size: 39px;
+    font-weight: 600;
+}
+.about .aboutData p{
+    width: 570px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F0F0F;
+}
+.about .aboutData form{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.about .aboutData ::placeholder{
+    color: rgba(147, 125, 194, 0.60);
+}
+.about .aboutData input{
+    border-bottom:1.8px solid rgba(147, 125, 194, 0.60);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: none;
+    max-width:570px;
+}
+.about .aboutData button{
+    padding: 12px 32px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: none;
+    background: #937DC2;
+    color: white;
+
+}
+.about .aboutData{
+    display: flex;
+    flex-direction: column;
+    gap:30px ;
+}
+@media screen and (max-width:800px) {
+    .about .aboutData p{
+        max-width: 300px;
+    }
+    iframe{
+        width: 280px;
+    }
+}

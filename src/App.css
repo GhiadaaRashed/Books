@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+#light{
+    background-color: white;
+}
+#dark{
+    background-color: #0F0F0F;
+}
+#light h1{
+    color: black;
+}
+#dark h1{
+    color: white;
+}
+#light h3{
+    color: black;
+}
+#dark h3{
+    color: white;
+}
+#light p{
+    color: black;
+}
+#dark p{
+    color: white;
+}
+#light span{
+    color: black;
+}
+#dark span{
+    color: white;
+}
+#light .Author{
+    background-color: white;
+}
+#dark .Author{
+    background-color: #0F0F0F;
+}
+#light input{
+    background-color: white;
+}
+#dark input{
+    background-color: #0F0F0F;
+}
+#light .nav{
+    background-color:white;
+}
+#dark .nav{
+    background-color: #0F0F0F;
+}
+#light ul{
+    color:  #0F0F0F;
+}
+#dark ul{
+    color: white;
+}
+#light a{
+    color:  #0F0F0F;
+}
+#dark a{
+    color: white;
+}
+#light  .navcontainer{
+    background-color:white;
+}
+#dark  .navcontainer{
+    background-color: #0F0F0F
+}

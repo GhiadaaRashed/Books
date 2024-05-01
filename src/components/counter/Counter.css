@@ -1,0 +1,4 @@
+.counter .bookcount{
+    display: flex;
+    gap: 10px;
+}

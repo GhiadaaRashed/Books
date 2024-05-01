@@ -1,0 +1,22 @@
+.Selected{
+    width: 100vw;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Selected .SelectedContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 100%;
+}
+@media screen and (max-width:992px) {
+    .Selected{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

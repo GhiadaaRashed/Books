@@ -1,0 +1,34 @@
+.Card{
+    width: 290px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap:8px ;
+}
+.CardTitle{
+    font-size: 12px;
+    font-weight: 600;
+}
+.Card img{
+    width: 100%;
+    height: 372px;
+}
+.Card .Cardcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.Card .CardPages{
+    display: flex;
+    gap: 5px;
+}
+.Card button{
+    width: 100%;
+    height: 40px;
+    color: #FFF;
+    font-size: 14px;
+    background:  #937DC2;
+    border-radius: 2.003px;
+    border: none;
+    padding: 7px 0;
+    cursor: pointer;
+}
